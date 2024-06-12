@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+        <link  rel="stylesheet" href="css/all.min.css"/>
+        <link  rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="css/index-style.css"/>
+        <title>Bookmark</title>
+    </head>
+    <body>
+        <div class="parent position-relative "> 
+            <div class="effect overflow-hidden" > 
+                <div class="title"></div>
+                <div class=" demo  w-25 m-auto ">
+                    <h1 class="text-center fw-medium ">Bookmarker</h1> 
+                </div>
+            </div> 
+            <br/>      
+            <br/>    
+            <br/>    
+            <br/>    
+            <br/>   
+            <br/>  
+            <br/>    
+            <div class="container bg-gradient  overflow-hidden" >
+                <div class="row" >
+                    <div class="col-sm-12"> 
+                    <div class="subtitle overflow-hidden"> 
+                      <div class="mt-1 fw-bold">.................................................................................................................................................................................................................................................................</div> 
+                      <h2 class="text-center pt-4 fs-3"> <i class="fa-solid fa-bookmark"></i> Bookmark your favorite sites   <i class="fa-solid fa-bookmark"></i></h2>
+                      <label for="name"   class="fw-bold fs-5">
+                        <i class="fa-solid fa-book-bookmark pe-2"></i> Site Name </label>
+                        <input class="form-control mt-2" id="name" type="text" placeholder="Bookmark Name" aria-label="default input example">
+                        <div id="nameAlert" class="alert alert-danger d-none">
+                            <p>Site name must contain at least 3 characters</p>
+                        </div>
+
+                        <label for="url"  class="fw-bold fs-5 mt-3">
+                        <i class="fa-solid fa-link"></i> Site Url </label>
+                        <input class="form-control mt-2" id="url" type="text" placeholder="Website Url" aria-label="default input example">
+                        <div id="urlAlert" class="alert alert-danger d-none">
+                            <p> Site URL must be a valid one</p>
+                        </div>
+
+                        <button type="button" class="btn btn-submit" id="submit">Submit</button>
+                    </div>
+                    </div>
+                    <div class="mt-3 fw-bold">..................................................................................................................................................................................................................................................................</div>
+                    <table class="table mt-3">
+                        <thead class="text-center fw-bold w-100">
+                          <td>Index</td>
+                          <td>Website Name</td>
+                          <td>Visit</td>
+                          <td>Delete</td> 
+                        </thead>
+                         
+                        <tbody id="body" class="text-center fw-bold">
+                          
+                        </tbody> 
+                    </table>  
+                      
+                      
+                   
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <script src="js/bootstrap.bundle.min.js"></script> 
+        <script src="js/index-style.js"></script>
+    </body>
+</html>

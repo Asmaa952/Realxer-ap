@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(247,236,222);
+}
+*{
+    box-sizing: border-box;
+}
+h1{
+    font-family: "Pacifico", cursive;
+    font-size:3rem;
+    color:#352e28;  
+ }
+  
+ .title{
+    background-color: rgb(254,194,96);
+    width: 20%;
+    height: 3.5%;
+    position: absolute;
+    left: 31rem;
+    top: 5.5rem;
+    transition-duration: .4s;
+ }
+ .demo{
+    position: absolute;
+    left: 29rem;
+    top: 3.5rem;
+ }
+ .effect:hover  .title{
+    width: 20%;
+    height: 5.8%;
+    position: absolute;
+    left: 31rem;
+    top: 4.6rem;
+ }
+ .subtitle h2{
+   font-family: "Righteous", sans-serif;
+   background: linear-gradient(to right, #3ca55c, #b5ac49)  ;  
+   -webkit-background-clip: text; /* قص الخلفية بالنص */
+   -webkit-text-fill-color: transparent; /* جعل لون النص شفافًا ليظهر التدرج */
+   background-clip: text; /* لأجل متصفح فايرفوكس */
+   color: transparent; /* لأجل متصفح فايرفوكس */
+ }
+ .btn-submit {
+   --bs-btn-color: #fff;
+   --bs-btn-bg: #d1512d;
+   --bs-btn-border-color: #d1512d;
+   --bs-btn-hover-color: #fff;
+   --bs-btn-hover-bg: #bb4120;
+   --bs-btn-hover-border-color: #a03315;
+   width: 15%;
+   margin-top: 1.5rem;
+   margin-left: 40%;
+}
+.btn-visit {
+   --bs-btn-color: #fff;
+   --bs-btn-bg: #9eb23b;
+   --bs-btn-border-color: #9eb23b;
+   --bs-btn-hover-color: #fff;
+   --bs-btn-hover-bg: #8a9e23;
+   --bs-btn-hover-border-color: #6e8018;
+}
+.btn-delete {
+   --bs-btn-color: #fff;
+   --bs-btn-bg: #eb1d36;
+   --bs-btn-border-color: #eb1d36;
+   --bs-btn-hover-color: #fff;
+   --bs-btn-hover-bg: #d30820;
+   --bs-btn-hover-border-color: #ba081d;
+}
+a{
+   text-decoration: none;
+   color:#fff
+}
+ 
+ 
